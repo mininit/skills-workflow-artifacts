@@ -41,5 +41,5 @@ jobs:
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v7
         with:
-          path: playright-report/index.html
+          path: playwright-report/index.html
           archive: false
